@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        /*--------Cv Css starts Here--------*/
+        .list {
+            display: flex;
+        }
+
+        .headmain {
+            background-image: url(" https://p2.piqsels.com/preview/745/724/30/bridge-nature-road-journey.jpg");
+            background-size: cover;
+        }
+
+        .header {
+            color: white;
+        }
+
+        .list {
+            list-style: none;
+            padding: 30px;
+            font-size: 20px;
+            text-decoration: none;
+
+        }
+
+        .list1 {
+            margin: 20px 20px 20px 20px;
+            text-decoration: none;
+        }
+
+        .cont {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .name {
+            font-size: 24px;
+            margin: -13px 10px;
+        }
+
+        .web {
+            font-size: 21px;
+
+        }
+        a{
+            text-decoration:none ;
+            color: aliceblue;
+        }
+
+        .buttons {
+            display: inline-block;
+            margin: 10px 0px 100px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hireme {
+            border: 2px solid;
+            background-color: #28c222;
+            margin: 0px -7px;
+            border: none;
+            border-radius: 0.1875rem;
+            padding: 6.2px 19px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .hireme2 {
+            border: 2px solid;
+            background-color: #28c222;
+            margin: 0px 20px;
+            border: none;
+            border-radius: 0.1875rem;
+            padding: 6px 19px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        img {
+            border-radius: 1000px;
+            height: 130px;
+            width: 130px;
+            display: flex;
+            margin: 18px 15px -10px 10px;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            transition: 0.7s;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .social {
+            background-color: rgb(136, 136, 136);
+            border-radius: 200%;
+            padding: 19px;
+            margin-left: 10px;
+            color: white;
+            font-size: 30px;
+            overflow: hidden;
+        }
+
+
+        .sign-container {
+            margin: -9px;
+        }
+
+        .box1 {
+            width: 100%;
+            height: 100%;
+            margin: 50px 0px -25px 0px;
+
+        }
+
+        .box4 {
+            width: 100%;
+            height: 100%;
+            margin: 70px 0px -15px 0px;
+        }
+
+        .box2 {
+            margin: auto;
+            width: 65%;
+            height: 230px;
+            padding: 10px;
+            box-shadow: 0 5px 25px 0 rgb(0 0 0 / 20%);
+        }
+
+        .box5 {
+            display: flex;
+            margin: auto;
+            width: 65%;
+            height: 200px;
+            padding: 10px 0px 0px 20px;
+            box-shadow: 0 5px 25px 0 rgb(0 0 0 / 20%);
+        }
+
+        .boxedu {
+            display: flex;
+            margin: auto;
+            width: 66%;
+            margin-bottom: 57px;
+            box-shadow: 0 5px 25px 0 rgb(0 0 0 / 20%);
+        }
+
+        .about {
+            width: 50%;
+            font-size: 20px;
+        }
+
+        .info {
+            font-size: 20px;
+            margin: 0px 0px 0px 25px;
+        }
+
+        .infoo {
+            font-size: 20px;
+            margin: 25px 0px 0px 25px;
+        }
+
+        .box3 {
+            display: flex;
+            width: 100%;
+        }
+
+        .skills {
+            text-align: center;
+            width: 100%;
+            font-size: 30px;
+            margin-bottom: 45px;
+        }
+
+        .heading {
+            text-align: center;
+            width: 100%;
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .lng {
+            width: 50%;
+            font-size: 20px;
+        }
+
+        meter {
+            width: 93%;
+            margin: 5px;
+        }
+
+        .linux {
+            width: 50%;
+            margin: 5px;
+            font-size: 20px;
+
+        }
+
+        .green {
+            width: 7%;
+            height: 185px;
+            background-color: #1f551d;
+            color: white;
+            padding: 20px 85px;
+
+
+        }
+
+        .year {
+            margin: 59px -35px -14px -35px;
+            text-align: center;
+            font-size: 20px;
+
+        }
+
+        .course {
+            margin: 25px 0px 0px -25px;
+            text-align: center;
+            font-size: 25px;
+        }
+        .inter{
+            margin: 25px 0px 0px -19px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .ccc {
+            margin: -25px 0px 0px 0px;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .cllg {
+            font-size: 17px;
+            margin-top: -20px;
+        }
+
+        .details {
+            font-size: 17px;
+            margin-top: 30px;
+        }
+
+        .board {
+            margin-top: 5px;
+            font-size: 20PX;
+        }
+
+        /* ---------Contact me css----- */
+        .whole {
+            position: relative;
+            bottom: 540px;
+            margin: 0px 0px 0px 252px;
+        }
+
+        input[type=text]:focus {
+
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .main {
+            display: flex;
+            margin: 36px 0px 0px 90px;
+            box-sizing: border-box;
+        }
+
+        .blue {
+            background-color: #ffffff;
+            margin: 0px 0px 0px -413px;
+            width: 25%;
+            padding: 66px 67px 0px 40px;
+            color: rgb(3, 3, 3);
+
+        }
+
+        .white {
+            background-color: #ffffff;
+            width: 47%;
+            padding: 25px;
+
+        }
+
+        input {
+            border-width: 0px 0px 2px 0px;
+            font-size: 11px;
+            display: inline-block;
+            margin: 10px;
+            height: 15px;
+
+        }
+
+        .block {
+            display: inline-block;
+            margin: 4px 14px 0px 5px;
+        }
+
+        .send {
+            border-radius: 20px;
+            margin-bottom: 15px;
+            margin-top: 20px;
+            width: fit-content;
+            background-color: #1f551d;
+            color: #ffffff;
+            padding: 8px 20px 8px 20px;
+        }
+
+        .send:hover {
+            transform: scale(1.2);
+            transition-duration: 0.5s;
+        }
+
+        label {
+            display: block;
+        }
+
+        .para {
+            margin: -37px 0px 20px 71px;
+            font-size: 17px;
+        }
+
+        .head {
+            padding: 0px 0px 0px 88px;
+        }
+
+        .h2 {
+            text-align: center;
+            margin: 0px -56px 25px 74px;
+        }
+
+        .h1 {
+            margin: 10px 0px 0px 15px;
+        }
+
+        .h3 {
+            margin: 6px 0px 23px 20px;
+            color: rgb(0, 0, 0);
+        }
+
+        .slide {
+            margin: 0px 0px -10px 15px;
+            color: rgb(0, 0, 0);
+
+        }
+
+        .msg {
+            margin: 0px 0px 0px 19px;
+            color: rgb(0, 0, 0);
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+        }
+
+        .foot {
+            display: flex;
+            justify-content: center;
+            font-size: 15px;
+            color: gray;
+        }
+
+        .last{
+            margin: -365px 0px 66px 10px;
+
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="headmain">
+            <nav>
+                <div class="cont">
+                    <ul class="list">
+                        <li class="list1">ABOUT</li>
+                        <li class="list1">SKILLS</li>
+                        <li class="list1">POTOFOLIO</li>
+                        <li class="list1">CONTACT</li>
+                    </ul>
+                </div>
+                <div class="container">
+
+                    <div class="pic"><img src="mypic.jpeg" alt="my pic">
+                    </div>
+                    <div class="details">
+                        <div class="name">
+                            <p>Suvrat Verma</p>
+                        </div>
+                        <div class="web">
+                            <p>Web Devloper & Photographer</p>
+                            <p>Fresher</p>
+                        </div>
+                        <div class="buttons">
+                            <div><a href="mailto: suvratverma21@gmail.com" class="hireme">Hire Me</span></a><a
+                                    href="resume.html" target="_blank"><span class="hireme2">Downlod CV</span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="sign-container">
+            <a class="social" href="#" rel=""><i class="fa fa-facebook"></i></a>
+            <a class="social" href="#" rel=""><i class="fa fa-twitter"></i></a>
+            <a class="social" href="https://github.com/iamsuvratverma" rel="" target="_blank"><i class="fa fa-github"></i></a>
+            <a class="social" href="https://instagram.com/suvratverma_?igshid=MDM4ZDc5MmU=" target="_blank" rel=""
+                title=""><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="box1">
+        <div class="box2">
+            <div class="box3">
+                <div class="about">
+                    <div>
+                        <h3>About</h3>
+                        <p>Hello! I am Suvrat verma. I have basic Knowledge in Web Developing and Photographing.I create some Small Projects in Web Devlopment & I took some portraits too.</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3>Basic Informations</h3>
+                    <div> <strong>Age :</strong> 21</div>
+                    <div><strong>Email :</strong> Suvratverma21@gmail.com</div>
+                    <div><strong>Phone :</strong> +916393496133</div>
+                    <div><strong>Address:</strong> 366/17 kalyanpur kanpur Nagar Uttar Pradesh</div>
+                    <div><strong>Language:</strong> Hindi</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------- Professional skills --------->
+    <div class="box4">
+        <div class="skills">Professional Skills</div>
+        <div class="box5">
+            <div class="lng">
+                <label for="file">HTML 60%</label>
+                <meter id="file" value="60" max="100"></meter>60%
+                <label for="file">CSS 50%</label>
+                <meter id="file" value="50" max="100"> 30% </meter>
+                <label for="file">Hardware 70%</label>
+                <meter id="file" value="70" max="100"> 70% </meter>
+            </div>
+            <div class="linux">
+                <label for="file">Linux 70%</label>
+                <meter id="file" value="70" max="100"> 58% </meter>
+                <label for="file">Networking 85%</label>
+                <meter id="file" value="85" max="100"> 60% </meter>
+            </div>
+        </div>
+    </div>
+
+    <!------Qualifications Starts Here------->
+    <div class="box1">
+        <div class="heading">Qualifications</div>
+        <div class="boxedu">
+            <div class="green">
+                <div class="year">
+                    <p>2022 - Present</p>
+                </div>
+                <div class="course">
+                    <p>ADIT</p>
+                </div>
+
+            </div>
+            <div class="infoo">
+                <h5 class="board">Advance Diploma in Information Technology & Cloud Coumputing</h5>
+                <diV class="cllg">NSTI College Jodhpur, Rajasthan</diV>
+                <p class="details"> Presently in the 1st year of the Course.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="box1">
+        <div class="boxedu">
+            <div class="green">
+                <div class="year">
+                    <p>2019-2021</p>
+                </div>
+                <div class="course">
+                    <p>ITI</p>
+                </div>
+            </div>
+            <div class="infoo">
+                <h5 class="board">Directorate general of training Govt. of India</h5>
+                <diV class="cllg">APV ITC COLLG</diV>
+                <p class="details"> I pursued My ItI in the Electrician trade with 93% Marks</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="box1">
+        <div class="boxedu">
+            <div class="green">
+                <div class="year">
+                    <p>2016-2018</p>
+                </div>
+                <div class="inter">
+                    <p>Intermediate</p>
+                </div>
+            </div>
+            <div class="infoo">
+                <h5 class="board">Board of Intermediate eduaction U.P</h5>
+                <diV class="cllg">DR N.S.V. INT COLLG</diV>
+                <p class="details"> I pursued My Intermediate with 77% Marks</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="box1">
+        <div class="boxedu">
+            <div class="green">
+                <div class="year">
+                    <p>2014-2016</p>
+                </div>
+                <div class="inter">
+                    <p>HighSchool</p>
+                </div>
+            </div>
+            <div class="infoo">
+                <h5 class="board">Board of Intermediate eduaction U.P</h5>
+                <diV class="cllg">DR N.S.V. INT COLLG</diV>
+                <p class="details"> I pursued My High school with 83% Marks</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="box1">
+        <div class="heading">Certfications</div>
+        <div class="boxedu">
+            <div class="green">
+                <div class="year">
+                    <p>2022-Present</p>
+                </div>
+                <div class="ccc">
+                    <p>IBMs</p>
+                </div>
+
+            </div>
+            <div class="infoo">
+                <h5 class="board">International Business Machines</h5>
+                <diV class="cllg">IBM skillsBuild: Free Skills-Based Learning From Technology.</diV>
+                <p class="details"> I have done some Certfications in IBM skills Builds.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="box1">
+        <div class="boxedu">
+            <div class="green">
+                <div class="year">
+                    <p>2018</p>
+                </div>
+                <div class="ccc">
+                    <p>CCC</p>
+                </div>
+
+            </div>
+            <div class="infoo">
+                <h5 class="board">Course on Computer Concepts</h5>
+                <diV class="cllg">National Institute of Electronics and Information Technology</diV>
+                <p class="details"> I am completed My CCC with "c" Grade.</p>
+            </div>
+
+        </div>
+    </div>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.1563462903277!2d73.0005462!3d26.2565887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c19456d53ab%3A0x6360ba0d1120491b!2sNational%20Skill%20Training%20Institute%2C%20Jodhpur!5e0!3m2!1sen!2sin!4v1673283815343!5m2!1sen!2sin"
+        width="1890px" height="600px" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="whole">
+        <div class="main">
+            <form action="">
+                <div class="white">
+                    <h2 class="h2">Contact Me</h2>
+                    <div>
+                        <h3 class="h3">Feel Free to contact me</h3>
+                        <div class="block">
+                            <label class="slide" for="">Name </label>
+                            <input class="h1" type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="block">
+                            <label class="slide" for="">Phone</label>
+                            <input class="h1" type="text" placeholder="phone no." maxlength="10">
+                        </div>
+
+                        <div class="block">
+                            <label class="slide" for="">Email</label>
+                            <input class="h1" type="email" placeholder="Enter your email">
+                        </div>
+                        <div class="block">
+                            <label class="slide" for="">subject</label>
+                            <input class="h1" type="text" placeholder="Topic Name">
+                        </div>
+                    </div> <br>
+
+                    <div class="msg">
+                        Message
+                    </div>
+                    <input class="h1" type="text">
+                    <div class="h1">
+                        <button type="send" class="send">SEND</button>
+                    </div>
+                </div>
+
+            </form>
+            <div class="blue">
+                <div>
+                    <p class="bold">Email</p>
+                    <p class="para">suvratverma21@gmail.com </p>
+                </div>
+                <div>
+                    <p class="bold">Phone</p>
+                    <p class="para">+916393496133</p>
+                </div>
+                <div>
+                    <p class="bold">
+                        Address</p>
+                    <p class="para">kalyanpur Kanpur Nagar Uttar Pradesh
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer >
+        <div class="last">
+        <div class="footer">Suvrat Verma</div>
+        <div class="foot">Creative cv.All rights reserved.</div>
+    </div>
+    </footer>
+</body>
+
+</html>
